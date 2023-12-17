@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Adiciona/Salva um XML</title>
 </head>
 <body>
-$END$
+
+<form action="minhaServlet" method="POST" enctype="multipart/form-data">
+
+    <label for="xmlFile">Escolha um arquivo XML:</label>
+    <br>
+    <input type="file" name="xmlFile" id="xmlFile" accept=".xml" required>
+    <br>
+    <input type="submit" value="Enviar Arquivo">
+</form>
+
 </body>
 </html>
