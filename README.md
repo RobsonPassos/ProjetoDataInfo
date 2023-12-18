@@ -1,4 +1,4 @@
-Este Projeto funciona da seguinte forma:
+#### **Este Projeto é um "Projeto Maven archetype web-app" funciona da seguinte forma:**
 
 ### **você envia um arquivo.xml ele recupera todas os dados de cada tag e insere no banco de dados o valor de cada tag é um registro!**
 ### **Na sequência é redirecionado para uma tela JSP onde é listado todos os registro inseridos, essa lista é recuperada do banco de dados através de JPA.**
